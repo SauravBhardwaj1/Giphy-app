@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div id="nav">
+        <a href="index.html">
+            <img id="img" src="https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2021/08/giffy.png" alt="">
+        </a>
+        <p>Reaction</p>
+        <p>Entertainment</p>
+        <p>Sports</p>
+        <p>Stickers</p>
+        <p>Artists</p>
+        <button class="btn">Upload</button>
+        <button class="btn1">Create</button>
+    </div>
+    <div>
+        <input type="text"  id="search" placeholder="Search all the Gif's and stickers">
+        <button id="btn" onclick="gif()">Gif</button><br>
+        <div id="buttn">
+            <button class="buttn">Home</button>
+            <button class="buttn" onclick="random()">Random</button>
+            <button  class="buttn" onclick="categories()">Categories</button>
+            <button class="buttn">Gif</button>
+            <button class="buttn" oninput="translate()">Translate</button>
+            <span id="sorting"></span>
+        </div>
+        
+    </div>
+   
+
+   <div id="container"></div>
+</body>
+</html>
+<script src="./index.js"></script>

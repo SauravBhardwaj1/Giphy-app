@@ -1,0 +1,67 @@
+body{
+    background-color: black;
+}
+#details{
+    width: 50%;
+    height: auto;
+
+}
+#details p{
+    color: white;
+}
+button{
+    background-color: rgb(79, 79, 194);
+    border: none;
+    border-radius: 5px;
+    margin-bottom:10px ;
+    
+}
+a{
+    font-size: 18px;
+    color: black;
+}
+#nav{
+    display: flex;
+    gap: 30px;
+}    
+#img{
+    width: 12%;
+    height: 80px;
+    margin-top: 26px;
+    margin-left: 180px
+}
+#nav>p{
+    color: white;
+    gap: 10px;
+    margin-top:80px;
+}
+#nav>button{
+    height: 45px;
+    width: 90px;
+    margin-top: 60px;
+}
+input{
+    width: 60%;
+    border-radius: 5px;
+    height: 50px;
+    font-size: 18px;
+    margin-left: 180px
+}
+#btn{
+    padding:15px;
+    font-size: 18px;
+    cursor:pointer;
+}
+button{
+    padding: 10px;
+}
+
+#details{
+    color: white;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#details p{
+    color: white;
+    font-size: 15px;
+}

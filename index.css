@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(17, 17, 17);
+}
+img{
+    width: 200px;
+}
+#nav{
+    display: flex;
+    gap: 30px;
+}    
+a>#img{
+    width: 40%;
+    height: 70px;
+    margin-top: 35px;
+    margin-left: 180px
+}
+#nav>p{
+    color: white;
+    gap: 10px;
+    margin-top:80px;
+}
+#nav>button{
+    height: 45px;
+    width: 90px;
+    margin-top: 60px;
+}
+input{
+    width: 60%;
+    border-radius: 5px;
+    height: 50px;
+    font-size: 18px;
+    margin-left: 180px
+}
+#btn{
+    padding:15px;
+    font-size: 18px;
+    cursor:pointer;
+}
+button{
+    padding: 10px;
+}
+.btn{
+    cursor: pointer;
+    background-color: rgb(64, 64, 182) ;
+    font-size: 16px;
+    border-radius: 5px;
+    color: white;
+}
+.btn1{
+    cursor: pointer;
+    background-color: rgb(159, 80, 184) ;
+    font-size: 16px;
+    margin-left: -25px;
+    border-radius: 5px;
+    color: white;
+}
+#buttn{
+    margin-left: 180px;
+    margin-top: 20px;
+}
+.buttn{
+    margin-left: 5px;
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    color: white;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#container p{
+    color: white;
+    font-size: 15px;
+}
